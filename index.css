@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+body{
+    background-color: #7B8FA1;
+}
+
+:root{
+    --color-primario:#7DCEA0;
+    --color-hover:#B9F3FC;
+}
+
+.content{
+    background-color: #fff;
+    width: 57%;
+    height: 100%;
+    margin: auto;
+    padding: 25px;
+}
+
+.cabecera{
+    width: 100%;
+}
+
+    .cabecera img{
+        width: 259px;
+        float: right;
+        border: 1px solid #16A085;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    .introduccion_div{
+        width: 55%;
+        height: 320px;
+    }
+
+        .introduccion_div h1{
+            color: var(--color-primario);
+        }
+
+.button_mas{
+        display: flex;
+        background-color: var(--color-primario);
+        color: #fff;
+        height: 34px;
+        width: 120px;
+        border-radius: 8px;
+        margin-left: 36px;
+        align-items: center;
+        cursor: pointer;
+        transition: all 1.24s;
+}
+
+    .button_mas:hover{
+        background-color: var(--color-hover);
+        color: #000;
+        border: none;
+    }
+
+    .button_mas span{
+        margin: auto;
+    }
+
+.menu{
+    display: flex;
+    width: 99%;
+    height: 250px;
+    padding: 5px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}    
+
+    .menu div{
+        width: 31.25%;
+        height: 210px;
+        border-radius: 4px;
+        background-color: #F2F4F4;
+        text-align: center;
+    }
+
+        .menu div .material-symbols-outlined{
+            font-size: 35px;
+            margin-top: 15px;
+            color: var(--color-primario);
+        }   
+
+        .terrenos_menu h3{
+            font-size: 19px;
+            margin-top: 7px;
+            color: var(--color-primario);
+        }      
+
+        .terrenos_menu p{
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .espacios_menu h3{
+            font-size: 19px;
+            margin-top: 7px;
+            color: var(--color-primario);
+        }      
+
+        .espacios_menu p{
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .jardines_menu h3{
+            font-size: 19px;
+            margin-top: 7px;
+            color: var(--color-primario);
+        }      
+
+        .jardines_menu p{
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+.informacion{
+    width: 99%;
+    height: 300px;
+    padding: 15px;
+    background-color: #1F8A70;
+}  
+
+    .informacion_texto{
+        width: 60%;
+        height: 250px;
+        float: left;
+    }
+
+        .informacion_texto h2{
+            color: #fff;
+        }
+
+        .informacion_texto p{
+            color: #000;
+            font-size: 18px;
+            margin-top: 16px;
+        }
+
+
+    .informacion_img{
+        width: 40%;
+        height: 250px;
+        float: left;
+    }
+
+        .informacion_img img{
+            width: 230px;
+            border-radius: 4px;
+        }
+
+
+
+
